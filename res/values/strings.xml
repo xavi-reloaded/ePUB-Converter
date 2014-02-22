@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C)2013 Soumya Ranjan sahu
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <!-- epubconverter -->
+    <string name="app_name">ePUB Converter</string>
+    <string name="convert">Convert</string>
+    <string name="preview">Preview</string>
+    <string name="cip">Conversion in progress</string>
+    <string name="wrongfile">epubconverter can\'t handle this file</string>
+    
+    <!-- Menu -->
+    <string name="prefs">Settings</string>
+    <string name="info">Information</string>
+    <string name="license">License</string>
+    
+    <!-- Preview -->
+    <string name="prev">Previous page</string>
+    <string name="next">Next page</string>
+    
+    <!-- Prefs -->
+    <string name="images_title">Include images</string>
+    <string name="images_summary">Extract images from PDF</string>
+    <string name="repeated_title">Repeated images</string>
+    <string name="repeated_summary">Add every image repetition</string>
+    <string name="page_title">Pages per file</string>
+    <string name="page_summary">Number of PDF pages per file</string>
+    <string name="error_title">ePUB with error</string>
+    <string name="error_summary">On conversion error</string>
+    <string name="keep_item">Keep</string>
+    <string name="ask_item">Ask</string>
+    <string name="discard_item">Discard</string>
+    <string name="mark_title">Add marker</string>
+    <string name="mark_summary">Mark errors and page lost</string>
+    <string name="notifi_title">Hide notification</string>
+    <string name="notifi_summary">Does Not send notification</string>
+    <string name="pdftoc_title">TOC from PDF</string>
+    <string name="pdftoc_summary">Try to extract the table of contents from PDF</string>
+    <string name="filechooser_group">File chooser</string>
+    <string name="all_files_title">Show all</string>
+    <string name="all_files_summary">Show all files</string>
+    <string name="detail_title">Hide detail</string>
+    <string name="detail_summary">Show only filenames</string>
+    <string name="preview_group">Preview</string>
+    <string name="show_images_title">Show images</string>
+    <string name="show_images_summary">Show images in preview</string>
+    
+    <!-- FileChooser -->
+    <string name="path">Path: %s</string>
+    <string name="root">Root folder</string>
+    <string name="up">Upper folder</string>
+	<string name="folder">Folder</string>
+    <string name="recent_title">Recent folders</string>
+    <string name="recent_summary">Select one of previously visited folders</string>
+    <string name="back_title">Back</string>
+	<string name="back_summary">Go back to file chooser</string>
+		
+    <!-- Convert -->
+    <string name="read_error">"Can't read ePUB file"</string>
+    <string name="heading">"epubconverter - ©2013 Soumya Sahu\nMinimal offline PDF to ePUB converter for Android\n"</string>
+    <string name="library">"PDF extraction based on iText software library released under the AGPL license\n\n"</string>
+    <string name="deleted">ePUB file deleted</string>
+    <string name="kept_old">Kept old ePUB file</string>
+    <string name="pages">Number of pages: %d\n</string>
+    <string name="extraction_failure">Page %d: extraction failure</string>
+    <string name="extraction_error">Extraction error: text can be incomplete</string>
+    <string name="keep">Have I to keep the ePUB file?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="stop">Stop</string>
+    <string name="lost_pages">Lost pages are marked with %s</string>
+    <string name="errors">Errors are marked with %s</string>
+    <string name="pagenumber">PageNumber%s</string>
+    <string name="load">Loading: %s</string>
+    <string name="file">\nePUB file: %s</string>
+    <string name="open">Open ePUB file</string>
+    <string name="mimetype">Add mimetype</string>
+    <string name="container">Add container.xml</string>
+    <string name="content">Add content.opf</string>
+    <string name="toc">Add toc.ncx</string>
+    <string name="frontpage">Add frontpage.html</string>
+    <string name="frontpagepng">Add frontpage.png</string>
+    <string name="html">Add page%d.html</string>
+    <string name="image">Add %s</string>
+    <string name="close">Close file</string>
+    <string-array name="message">
+        <item>Conversion completed</item>
+        <item>PDF file not found</item>
+        <item>Failed to read PDF file</item>
+        <item>Failed to write ePUB file</item>
+        <item>Failed to extract text</item>
+        <item>Extraction stopped by user</item>
+        <item>Out of memory error</item>
+    </string-array>
+
+</resources>
