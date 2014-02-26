@@ -1,9 +1,10 @@
-Credits:-
+ePUB Converter extract text from a PDF file and put it in a well formed (epubcheck compliant) ePUB file.
+ePUB Converter is an open source project which is hosted on github.
+
+                        Credits:-
 ePUB Converter is originally inspired from the work done by Ezio Querini who holds the copyright.
 Contact Ezio: iiizio AT users.sf.net
 
-
-ePUB Converter extract text from a PDF file and put it in a well formed (epubcheck compliant) ePUB file.
 
 PDF extraction based on iText library <http://itextpdf.com/> released under the AGPL license. 
 
@@ -20,6 +21,9 @@ PDF extraction based on iText library <http://itextpdf.com/> released under the 
 
 Permissions required:
 - WRITE_EXTERNAL_STORAGE for save the ePUB file
+
+
+
 
 Legal stuff:
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
